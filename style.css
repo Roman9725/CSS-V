@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearFix {
+    clear: both;
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    margin: 25px 0 25px 0;
+    color: red;
+    background-color: black;
+    text-shadow: 5px 5px 5px yellowgreen;
+}
+
+.tableBox {
+    columns: 4;
+    margin: 50px 0 0 20% ;
+}
+
+.s1 {
+    list-style-image: url(images/LS/iconfinder_36_App_Tile_Programs_List_Presentation_Items_Small_2142696.png);
+}
+
+.s2 {
+    list-style-image: url(images/LS/iconfinder_00-ELASTOFONT-STORE-READY_list_2738305.png);
+}
+
+.s3 {
+    list-style-image: url(images/LS/iconfinder_116_List2_183242.png);
+}
+
+.s4 {
+    list-style-image: url(images/LS/iconfinder_654_Categories_check_list_listing_mark_4017597.png);
+}
+
+.s5 {
+    list-style-image: url(images/LS/iconfinder_Hamburger_list_menu_options_bars_stack_1887037.png);
+}
+
+.s6 {
+    list-style-image: url(images/LS/iconfinder_Item_li_list_list_item_ul_1886963.png);
+}
+
+.s7 {
+    list-style-image: url(images/LS/iconfinder_list_107210.png);
+}
+
+.s8 {
+    list-style-image: url(images/LS/iconfinder_menu_3688469.png);
+}
+
+.s9 {
+    list-style-image: url(images/LS/iconfinder_price-list_3002785.png);
+}
+
+
+.repBox {
+    height: 298px;
+    width: 298px;
+    border: 1px dotted deeppink;
+    float: left;
+    margin: 1px;
+    background-color: slategrey;
+
+    background-image: url(images/7545343.jpg);
+    background-size: 50px 50px;
+}
+
+.repX {
+    background-repeat: repeat-x;
+}
+
+.repY {
+    background-repeat: repeat-y;
+}
+
+.rep {
+    background-repeat: repeat;
+}
+
+.repSpace {
+    background-repeat: space;
+}
+
+.repRound {
+    background-repeat: round;
+}
+
+.repNone {
+    background-repeat: no-repeat;
+}
+
+.spaceRep {
+    background-repeat: space repeat;
+}
+
+.roundSp {
+    background-repeat: round space;
+}
+
+.bgS {
+    height: 100px;
+    width: auto;
+    border: 10px solid olive;
+    margin-bottom: 10px;
+
+    background: url(images/222222.jpg);
+    background-repeat: no-repeat;
+}
+
+.bgAuto {
+    background-size: auto;
+}
+
+.bgContain {
+    background-size: contain;
+}
+
+.bgCover {
+    background-size: cover;
+}
+
+.bBox {
+    height: 370px;
+    width: 370px;
+    background-color: skyblue;
+    border: 15px dashed gold;
+    outline: 10px solid green;
+    float: left;
+    background-image: url(images/SimpleBG\ \(3\).png);
+    background-repeat: no-repeat;
+    margin: 15px;
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.bBox2 {
+    height: 370px;
+    width: 370px;
+    background-color: skyblue;
+    border: 15px dashed gold;
+    outline: 10px solid skyblue;
+    float: left;
+    margin: 15px;
+    color: white;
+    font-size: 25px;
+}
+
+.boborder {
+    background-origin: border-box;
+}
+
+.boPadding {
+    background-origin: padding-box;
+}
+
+.boContent {
+    background-origin: content-box;
+}
+
+.insider {
+    height: 100%;
+    width: 100%;
+    background-image: url(images/SimpleBG\ \(3\).png);
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-color: slateblue;
+}
+
+.boborder2 {
+    background-origin: border-box;
+}
+
+.boPadding2 {
+    background-origin: padding-box;
+}
+
+.boContent2 {
+    background-origin: content-box;
+}
+
+.milkyW {
+    width: 1200px;
+     height: 1000px;
+    background-color: black;
+    color: snow;
+    text-align: center;
+}
+
+.milkyW h2 {
+    padding-top: 400px;
+    font-size: 200px;
+    font-family: 'Carter One', cursive;
+    background-image: url(images/milky-way-2695569_1920.jpg);
+    background-size: cover;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
